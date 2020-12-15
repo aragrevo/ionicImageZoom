@@ -8,8 +8,8 @@
 
 <ion-content [fullscreen]="true">
   <ion-slides mode="md" pager="md" scrollbar="md" [options]="sliderOpts" class="preview-slides">
-    <ion-slide *ngFor="let img of [1,2,3,4]">
-      <img src="assets/img/{{ img }}.png" tappable (click)="openPreview(img)">
+    <ion-slide *ngFor="let img of [1,2,3,4,5]">
+      <img src="assets/img/{{ img }}.jpg" tappable (click)="openPreview(img)">
     </ion-slide>
   </ion-slides>
 </ion-content>
